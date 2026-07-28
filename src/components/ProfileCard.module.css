@@ -1,0 +1,43 @@
+.card {
+  align-items: center;
+  background: #ffffff;
+  border-left: 4px solid #ef3b18;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.14);
+  display: grid;
+  gap: 16px;
+  grid-template-columns: 70px minmax(0, 1fr);
+  min-height: 96px;
+  padding: 18px 18px 18px 25px;
+}
+
+.copy {
+  min-width: 0;
+}
+
+.greeting,
+.roll {
+  color: #4d4d4f;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.14;
+  margin: 0;
+}
+
+.card h2 {
+  color: #4d4d4f;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.14;
+  margin: 3px 0;
+  overflow-wrap: anywhere;
+}
+
+.photo {
+  grid-row: 1;
+  border: 0;
+  border-radius: 50%;
+  height: 49px;
+  object-fit: cover;
+  width: 49px;
+}

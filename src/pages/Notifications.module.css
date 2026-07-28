@@ -1,0 +1,38 @@
+.shell {
+  background: #eef3f9;
+  min-height: 100svh;
+}
+
+.content {
+  display: grid;
+  gap: 9px;
+  margin: 0 auto;
+  max-width: 768px;
+  padding: 0 15px 90px;
+}
+
+.empty {
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  box-shadow: 0 12px 32px rgba(18, 24, 40, 0.08);
+  color: #6b7280;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  justify-content: center;
+  min-height: 260px;
+}
+
+.empty svg {
+  color: #ee0000;
+  font-size: 44px;
+}
+
+.empty p {
+  color: #222222;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+}

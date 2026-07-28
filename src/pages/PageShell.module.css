@@ -1,0 +1,12 @@
+.shell {
+  background: #eef3f9;
+  min-height: 100svh;
+}
+
+.content {
+  display: grid;
+  gap: 9px;
+  margin: 0 auto;
+  max-width: 768px;
+  padding: 0 15px 90px;
+}

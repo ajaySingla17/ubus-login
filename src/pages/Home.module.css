@@ -1,0 +1,22 @@
+.shell {
+  background: #eef3f9;
+  min-height: 100svh;
+}
+
+.content {
+  display: grid;
+  gap: 9px;
+  margin: 0 auto;
+  max-width: 768px;
+  padding: 0 15px 90px;
+}
+
+.menuPanel {
+  background: #ffffff;
+  border-left: 4px solid #178c00;
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: grid;
+  gap: 25px;
+  padding: 22px 24px 32px;
+}
