@@ -9,7 +9,7 @@
   padding: 12px 8px calc(12px + env(safe-area-inset-bottom));
   position: fixed;
   transform: translateX(-50%);
-  width: 100%;
+  width: min(100%, 768px);
   z-index: 20;
 }
 
