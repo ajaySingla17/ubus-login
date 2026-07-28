@@ -53,7 +53,7 @@ export default function PaymentCard() {
             </p>
           </div>
           <div className={styles.right}>
-            <p className={styles.amount}>Rs. 47000</p>
+            <p className={styles.amount}>Rs. 50000</p>
             <p className={styles.success}>success</p>
             <p>UT49203</p>
             <p>pay_AbcdeF123456</p>
