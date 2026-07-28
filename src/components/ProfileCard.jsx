@@ -3,7 +3,7 @@ import styles from "./ProfileCard.module.css";
 export default function ProfileCard() {
   return (
     <section className={styles.card}>
-      <img className={styles.photo} src="/student.png" alt="Profile" />
+      <img className={styles.photo} src={`${import.meta.env.BASE_URL}student.png`} alt="Profile" />
       <div className={styles.copy}>
         <p className={styles.greeting}>Hi, AJAY SINGLA</p>
         <h2>ASHWANI KUMAR SINGLA</h2>
